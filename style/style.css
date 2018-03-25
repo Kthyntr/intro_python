@@ -1,0 +1,54 @@
+h1:not(.title) {
+	position: relative;
+	padding-bottom: .5em;
+	border-bottom: 2px solid #ccc;
+}
+h1::after {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	z-index: 2;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background-color: #3498db;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+h1 .title {
+  font-size:2.0rem;
+}
+
+h1:not(.title) {
+  font-size: 2.0rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  position: relative;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.0rem;
+}
+
+.author {
+  text-align: right;
+}
+.date {
+  text-align: right;
+}

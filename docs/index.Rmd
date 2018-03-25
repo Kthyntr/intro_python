@@ -1,0 +1,15 @@
+---
+title: "Introducing python"
+output:
+  html_document:
+    theme: yeti
+    highlight: tango
+    css: ../style/style.css
+---
+
+
+# 入門Python3
+
+<img src="../images/python_ml.jpeg" alt="logo" width="150" height="100" align = "right">
+
+- [Chapter2](ch02.ipynb)
